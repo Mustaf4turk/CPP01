@@ -3,10 +3,10 @@
 int main(void)
 {
 	Zombie *heapZombie;
-	
-	heapZombie = newZombie("Heap Zombie");
+
+	heapZombie = newZombie("HeapZ");
 	heapZombie->announce();
-	randomChump("Stack Zombie");
+	randomChump("StackZ");
 	delete heapZombie;
 	return (0);
 }
